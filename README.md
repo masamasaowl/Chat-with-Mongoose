@@ -1,6 +1,7 @@
 # Chat-with-Mongoose
 My first MongoDB database with Express fulfilling all the CRUD operations
-The website has chats which have 
+<br>
+The website has chats which have:
 1. _id
 2. from
 3. to
