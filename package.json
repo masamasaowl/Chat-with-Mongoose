@@ -1,0 +1,19 @@
+{
+  "name": "chat-with-mongoose",
+  "version": "1.0.0",
+  "description": "My first MongoDB database with Express fulfilling all the CRUD operations <br> The website has chats which have: 1. _id 2. from 3. to 4. message 5. time 6. date",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "masamasaowl",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.9.1",
+    "uuid": "^11.0.3"
+  }
+}
