@@ -4,11 +4,13 @@ const mongoose = require ('mongoose');
 const chatSchema = new mongoose.Schema({
     from : {
         type : String,
-        required : true
+        required : true,
+        default : "Anonymous"
     },
     to : {
         type : String,
-        required : true
+        required : true,
+        default : "to all"
     },
     message : {
         type : String,

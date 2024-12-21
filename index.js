@@ -10,6 +10,8 @@ const path = require("path");
 
 // new additions
 const mongoose = require('mongoose');
+// run command to start mongosh
+// sudo mongod --dbpath=/Users/Alok/data/db
 
 main()
     .then(() => {

@@ -1,3 +1,88 @@
+*{
+    margin: 0;
+    border: 0;
+    outline: 0;   
+    color: aliceblue;
+}
+body{
+    background-color:#0d0d11f3  ;
+}
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 h1,h2{
     text-align: center;
+    color: aliceblue;
+}
+.heading{
+    background-color: #1E293B;
+    margin-bottom: 20px;
+
+}
+.wholepage{
+    display: flex;
+    height: 100vh;
+}
+.optionspanel{
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+}
+.userspanel{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+
+}
+.chatpanel{
+    width: 100%;
+
+    /* make the chat panel scrollable */
+    overflow-y: scroll;
+    height: 100%;
+
+}
+.textbox{
+    height: 100px;
+    width: 300px;
+    color: azure;
+    /* background-color: rgb(191, 125, 38); */
+    border-radius: 100px;
+    margin: 0 0 30px 10px;
+}
+.verticalLine {
+    width: 1px; 
+    background-color: #ccc; 
+    height: 100%; 
+    /* margin: 0 10px;  */
+}
+.from,.to{
+    margin-left: 5px;
+}
+.message{
+    background-color: rgb(55, 151, 240);
+    border-radius: 100px;
+    padding: 6px 12px;
+    display: inline;
+}
+  
+
+
+
+
+footer{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1E293B;
+    color: white;
 }
